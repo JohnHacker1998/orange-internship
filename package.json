@@ -1,0 +1,19 @@
+{
+  "name": "yohannes_kindu_node_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnHacker1998/orange-internship.git"
+  },
+  "author": "Yohannes Kindu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnHacker1998/orange-internship/issues"
+  },
+  "homepage": "https://github.com/JohnHacker1998/orange-internship#readme"
+}
