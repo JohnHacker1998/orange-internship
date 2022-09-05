@@ -20,7 +20,14 @@ const adminSchema=mongoose.Schema({
         validate:/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/,
         required:true
 
+    },
+    password:{
+        type:String,
+        required:true
     }
+},
+{
+    timestamps:true
 })
 
 const Admin=mongoose.model('Admin',adminSchema)

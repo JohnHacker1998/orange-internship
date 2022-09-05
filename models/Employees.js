@@ -32,7 +32,19 @@ const employeeSchema=mongoose.Schema({
     address:{
         type:String,
         required:true
+    },
+    activation_status:{
+        type:Boolean,
+        default:true
+    },
+    password:{
+        type:String,
+        required:true,
+        select:false
     }
+},
+{
+    timestamps:true
 })
 
 const Employee=mongoose.model('Employee',employeeSchema)
